@@ -1,0 +1,13 @@
+.header {
+    display:flex;
+    justify-content: space-evenly;
+}
+ul {
+    display:flex;
+    margin:0;
+    gap: 10px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
