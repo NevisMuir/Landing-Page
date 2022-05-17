@@ -34,8 +34,7 @@ button{
     border-radius: 5px;
     padding:5px 25px;
     width: 125px;
-   border-color: white;
-    
+   border-color: white;  
 }
 
 .header-body {
@@ -48,10 +47,11 @@ button{
 .header-left {
     display:flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     width:450px;
     min-width: 150px;
 }
 .header-right {
     width:450px;
 }
+
