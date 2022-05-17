@@ -78,4 +78,29 @@ button{
 .content-frame {
     display:flex;
     justify-content: center;
+    margin-bottom: 50px;
+}
+
+.quote{
+    background-color:#E5E7EB ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:75px;
+}
+.quote .text{
+    font-style:italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 650px;
+    text-align: center;
+}
+
+.quote .author{
+    align-content: flex-end;
+    width:650px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top:5px;
 }
