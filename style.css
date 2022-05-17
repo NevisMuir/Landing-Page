@@ -40,7 +40,6 @@ button{
 .header-body {
     background-color: #1F2937;
     display: flex;
-    flex:1 1 auto;
     justify-content: center;
     padding: 50px;
 }
@@ -55,3 +54,10 @@ button{
     width:450px;
 }
 
+.content-box img {
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#3882F6;
+}
