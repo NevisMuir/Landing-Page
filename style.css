@@ -30,13 +30,28 @@ a, .hero-subtext{
     font-weight: 800;
 }
 button{
-    background-color: #3882F6;
-    border-color: white;
+    background-color: #3882F6; 
     border-radius: 5px;
     padding:5px 25px;
-    border: 2px;
+    width: 125px;
+   border-color: white;
+    
 }
 
 .header-body {
     background-color: #1F2937;
+    display: flex;
+    flex:1 1 auto;
+    justify-content: center;
+    padding: 50px;
+}
+.header-left {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width:450px;
+    min-width: 150px;
+}
+.header-right {
+    width:450px;
 }
