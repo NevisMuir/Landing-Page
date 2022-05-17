@@ -61,3 +61,21 @@ button{
     border-style: solid;
     border-color:#3882F6;
 }
+.content-box{
+    width:175px;
+    text-align: center;
+    margin:0 50px;
+}
+
+.content-header {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.content-frame {
+    display:flex;
+    justify-content: center;
+}
