@@ -29,7 +29,7 @@ a, .hero-subtext{
     color: #F9FAF8;
     font-weight: 800;
 }
-button{
+button {
     background-color: #3882F6; 
     border-radius: 5px;
     padding:5px 25px;
@@ -103,4 +103,15 @@ button{
     font-weight: 600;
     font-size: 16px;
     padding-top:5px;
+}
+
+.footer{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 75px;
+    width: 800px;
+    margin:75px auto;
+    border-radius:15px;
 }
